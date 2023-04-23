@@ -1,0 +1,4 @@
+links = //h2/a[contains(concat( " ", @class, " " ), concat( " ", "globoeconomiaSect", " " ))]/@href | //h2/a[contains(concat( " ", @class, " " ), concat( " ", "empresasSect", " " ))]/@href | //h2/a[contains(concat( " ", @class, " " ), concat( " ", "economiaSect", " " ))]/@href | //h2/a[contains(concat( " ", @class, " " ), concat( " ", "ocioSect", " " ))]/@href | //h2/a[contains(concat( " ", @class, " " ), concat( " ", "finanzasSect", " " ))]/@href | //h2/a[contains(concat( " ", @class, " " ), concat( " ", "internet-economySect", " " ))]/@href | //h2/a[contains(concat( " ", @class, " " ), concat( " ", "caja-fuerteSect", " " ))]/@href | //h2/a[contains(concat( " ", @class, " " ), concat( " ", "opa-por-nutresa-especialesSect", " " ))]/@href
+titulo = //div[@class = "mb-auto"]//h2/span/text()
+resumen = //div[contains(@class, "lead")]/p/text()
+body = //div[@class="html-content"]/p/text()
